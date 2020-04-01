@@ -1,0 +1,6 @@
+alias txn="tmux new -s"
+alias txa="tmux attach -t"
+alias txk="tmux kill-session -t"
+alias txl="tmux ls"
+alias txls="tmux ls"
+

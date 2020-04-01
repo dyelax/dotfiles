@@ -1,0 +1,11 @@
+alias gmom="git fetch; git merge origin/master"
+alias gdel="git branch -D"
+alias gdelrem="git push origin --delete"
+grename() { git branch -m $1 $2; git push origin :$1 $2; git push origin -u $2; }
+alias gstc="git stash clear"
+alias gst="git stash"
+alias gs="git status"
+alias gcom="git checkout master"
+alias gcob="git checkout -b"
+alias gcaa="git commit -a --amend"
+

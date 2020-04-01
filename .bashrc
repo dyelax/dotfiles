@@ -1,23 +1,13 @@
-source ~/.machine_specific
-bind 'set mark-symlinked-directories on'
+DOTFILES_DIR=${BASH_SOURCE[0]%/*}
 
-export PATH=$PATH:/home/matthcooper/.local/bin
+source $DOTFILES_DIR/.machine_specific
+source $DOTFILES_DIR/.git_aliases
+source $DOTFILES_DIR/.tmux_aliases
 
-alias gmom="git fetch; git merge origin/master"
-alias gdel="git branch -D"
-alias gdelrem="git push origin --delete"
-grename() { git branch -m $1 $2; git push origin :$1 $2; git push origin -u $2; }
-alias gstc="git stash clear"
-alias glo="git log"
+source bind 'set mark-symlinked-directories on'
 
-alias txn="tmux new -s"
-alias txa="tmux attach -t"
-alias txk="tmux kill-session -t"
-alias txl="tmux ls"
-alias txls="tmux ls"
-
+# Misc aliases
 alias jnco="jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace"
-
 filecount() { cd ${1:-"."} && ls -1 | wc -l && cd -; }
 
 case $- in
