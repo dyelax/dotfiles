@@ -1,3 +1,4 @@
+alias gb="git branch | cat"
 alias gmom="git fetch; git merge origin/master"
 alias gdel="git branch -D"
 alias gdelrem="git push origin --delete"
@@ -8,4 +9,5 @@ alias gs="git status"
 alias gcom="git checkout master"
 alias gcob="git checkout -b"
 alias gcaa="git commit -a --amend"
-
+alias gcm="git commit -m"
+alias gcam="git commit -am"
