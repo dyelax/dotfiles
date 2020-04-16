@@ -9,6 +9,13 @@ brew bundle --file $DOTFILES_DIR/Brewfile;
 echo "============================================";
 
 ##
+# Configure Git
+##
+
+
+echo "============================================";
+
+##
 # Setup SSH key and add to github
 ##
 echo "Setting up SSH key"
@@ -46,11 +53,14 @@ mv ~/.zshrc ~/.zshrc.bak.setup.$(date +'%Y-%m-%d');  # Make a backup in case the
 touch ~/.zshrc;
 echo "source $DOTFILES_DIR/.zshrc" >> ~/.zshrc;
 
-# Install a powerline-compatible font
-echo "Installing powerline fonts"
-git clone https://github.com/powerline/fonts.git --depth=1 powerline-fonts
-./powerline-fonts/install.sh
-rm -rf powerline-fonts
+echo "Installing powerline fonts";
+git clone https://github.com/powerline/fonts.git --depth=1 powerline-fonts;
+./powerline-fonts/install.sh;
+rm -rf powerline-fonts;
+
+echo "Installing plugins";
+source ~/.zshrc;
+git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$ZSH_CUSTOM/plugins/autoswitch_virtualenv";
 
 echo "============================================";
 
