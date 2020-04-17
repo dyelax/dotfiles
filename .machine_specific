@@ -5,5 +5,5 @@ export ZSH="/Users/coop/.oh-my-zsh"
 export PATH=$HOME/bin:/usr/local/bin:/Users/coop/Library/Python/2.7/bin:$PATH
 
 # Monthly Aliases
-alias mf="cd /Users/coop/programming/monthly/monthly && npm start"
+alias mf="cd /Users/coop/programming/monthly/frontend && npm start"
 alias mb="cd /Users/coop/programming/monthly/backend/monthly && python application.py"
