@@ -38,3 +38,6 @@ mas "Screenie", id: 965442961
 cask "spotify"
 cask "steam"
 
+# Design
+cask "figma"
+
