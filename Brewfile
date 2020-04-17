@@ -36,4 +36,5 @@ mas "Screenie", id: 965442961
 
 # Entertainment
 cask "spotify"
+cask "steam"
 
