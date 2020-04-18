@@ -28,7 +28,7 @@ cask "slack"
 # Productivity
 cask "notion"
 cask "lastpass"
-mas "Todoist", id: 585829637 # Todoist
+mas "Todoist", id: 585829637
 
 # OS
 cask "bettertouchtool"
@@ -42,6 +42,5 @@ cask "steam"
 # Design
 cask "figma"
 
-cask "test"
-cask "test"
-cask "test"
+# Misc.
+
