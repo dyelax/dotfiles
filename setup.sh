@@ -51,7 +51,7 @@ echo "Installing oh-my-zsh";
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
 mv ~/.zshrc ~/.zshrc.bak.setup.$(date +'%Y-%m-%d');  # Make a backup in case there was anything important
 touch ~/.zshrc;
-echo "source $DOTFILES_DIR/.zshrc" >> ~/.zshrc;
+echo "source $DOTFILES_DIR/zshrc" >> ~/.zshrc;
 
 echo "Installing powerline fonts";
 git clone https://github.com/powerline/fonts.git --depth=1 powerline-fonts;
@@ -64,3 +64,4 @@ git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$Z
 
 echo "============================================";
 
+source ~/.zshrc;
