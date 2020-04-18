@@ -44,3 +44,4 @@ cask "figma"
 
 cask "test"
 cask "test"
+cask "test"

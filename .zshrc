@@ -8,5 +8,5 @@ source $DOTFILES_DIR/.tmux_aliases
 # Misc. Aliases
 alias jnco="jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace"
 filecount() { cd ${1:-"."} && ls -1 | wc -l && cd -; }
-caskadd() { cd $DOTFILES_DIR && echo "cask \"${1}\"" >> Brewfile && gcam "Added cask ${1} to Brewfile" && gp && cd -; }
+caskadd() { cd $DOTFILES_DIR && echo "cask \"${1}\"" >> Brewfile && gcam "Added 'cask \"${1}\"' to Brewfile" && gp && cd -; }
 
