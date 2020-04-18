@@ -32,6 +32,7 @@ mas "Todoist", id: 585829637 # Todoist
 
 # OS
 cask "bettertouchtool"
+cask "loom"
 mas "Screenie", id: 965442961
 
 # Entertainment
