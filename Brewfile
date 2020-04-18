@@ -42,3 +42,4 @@ cask "steam"
 # Design
 cask "figma"
 
+cask "test"
