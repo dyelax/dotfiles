@@ -11,7 +11,10 @@ echo "============================================";
 ##
 # Configure Git
 ##
-
+git config --global user.name "Matt Cooper";
+git config --global user.email me@matt.coop;
+git config --global push.default current;
+git config --global core.excludesfile $DOTFILES_DIR/gitignore_global;
 
 echo "============================================";
 
@@ -65,3 +68,4 @@ git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$Z
 echo "============================================";
 
 source ~/.zshrc;
+
