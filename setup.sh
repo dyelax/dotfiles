@@ -15,6 +15,7 @@ git config --global user.name "Matt Cooper";
 git config --global user.email me@matt.coop;
 git config --global push.default current;
 git config --global core.excludesfile $DOTFILES_DIR/gitignore_global;
+git config --global core.pager more
 
 echo "============================================";
 
