@@ -48,3 +48,4 @@ mas "Logic Pro X", id: 634148309
 
 # Misc.
 
+cask "ngrok"
