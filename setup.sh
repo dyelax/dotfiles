@@ -68,5 +68,12 @@ git clone "https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git" "$Z
 
 echo "============================================";
 
+echo 'Setting up python';
+sudo easy_install pip;
+pip install virtualenv;
+pip3 install virtualenv;
+
+echo "============================================";
+
 source ~/.zshrc;
 
