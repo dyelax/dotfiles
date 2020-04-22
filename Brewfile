@@ -42,5 +42,9 @@ cask "steam"
 # Design
 cask "figma"
 
+# Music
+cask "splice"
+mas "Logic Pro X", id: 634148309
+
 # Misc.
 
