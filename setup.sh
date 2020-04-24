@@ -75,5 +75,9 @@ pip3 install virtualenv;
 
 echo "============================================";
 
+echo 'Misc. setup';
+echo 'Authenticating ngrok';
+ngrok authtoken 1aufEw4ziI1aBym1va4N0x7w8fK_7GHX5RvzebCr7yGSjCF2k
+
 source ~/.zshrc;
 

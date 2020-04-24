@@ -20,6 +20,7 @@ cask "webstorm"
 cask "pycharm-ce"
 cask "sublime-text"
 cask "visual-studio-code"
+cask "ngrok"
 
 # Messaging
 cask "goofy"
@@ -48,4 +49,3 @@ mas "Logic Pro X", id: 634148309
 
 # Misc.
 
-cask "ngrok"
