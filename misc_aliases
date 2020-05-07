@@ -5,3 +5,7 @@ caskadd() { cd $DOTFILES_DIR && echo "cask \"${1}\"" >> Brewfile && gcam "Added 
 brewadd() { cd $DOTFILES_DIR && echo "brew \"${1}\"" >> Brewfile && gcam "Added 'brew \"${1}\"' to Brewfile" && gp && cd -; }
 masadd()  { cd $DOTFILES_DIR && echo "mas \"${1}\", id: ${2}" >> Brewfile && gcam "Added 'mas \"${1}\", id: ${2}' to Brewfile" && gp && cd -; }
 
+# ngrok
+alias ngb="ngrok http 80 -subdomain=monthly-backend"
+alias ng="ngrok http 3000 -subdomain=monthly"
+
