@@ -50,3 +50,4 @@ mas "Logic Pro X", id: 634148309
 # Misc.
 
 mas "Grammarly", id: 1462114288
+cask "postman"
