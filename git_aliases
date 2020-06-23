@@ -11,3 +11,5 @@ alias gcob="git checkout -b"
 alias gcaa="git commit -a --amend"
 alias gcm="git commit -m"
 alias gcam="git commit -am"
+alias gds="git diff --name-status"
+
