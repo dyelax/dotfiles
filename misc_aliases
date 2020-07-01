@@ -10,5 +10,6 @@ alias ngb="ngrok http 80 -subdomain=monthly-backend"
 alias ng="ngrok http 3000 -subdomain=monthly"
 
 # localtunnel
-alias ltm="lt -h http://serverless.social -p 3000"
+alias ltp="lt -h http://serverless.social -p"
+alias ltm="ltp 3000"
 
