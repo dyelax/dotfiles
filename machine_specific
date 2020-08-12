@@ -8,5 +8,5 @@ export PATH=$HOME/bin:/usr/local/bin:/Users/coop/Library/Python/2.7/bin:$PATH
 export PATH=$HOME/.ebcli-virtual-env/executables:$PATH
 
 # Monthly Aliases
-alias mf="cd /Users/coop/programming/monthly/frontend && npm start"
+alias mf="cd /Users/coop/programming/monthly/frontend/packages/web && yarn start"
 alias mb="cd /Users/coop/programming/monthly/backend/monthly && python application.py"
