@@ -7,8 +7,9 @@ brewadd() { cd $DOTFILES_DIR && echo "brew \"${1}\"" >> Brewfile && gcam "Added 
 masadd()  { cd $DOTFILES_DIR && echo "mas \"${1}\", id: ${2}" >> Brewfile && gcam "Added 'mas \"${1}\", id: ${2}' to Brewfile" && gp && cd -; }
 
 # ngrok
+alias ng="ngrok http 3000 -subdomain=monthly-coop"
 alias ngb="ngrok http 80 -subdomain=monthly-backend"
-alias ng="ngrok http 3000 -subdomain=monthly"
+alias ngbc="ngrok http 80 -subdomain=monthly-coop-backend"
 
 # localtunnel
 alias ltp="lt -h http://serverless.social -p"
