@@ -4,9 +4,12 @@ export ZSH="/Users/coop/.oh-my-zsh"
 # Path updates to get python 2.7 to work
 export PATH=$HOME/bin:/usr/local/bin:/Users/coop/Library/Python/2.7/bin:$PATH
 
+# Python3.7 for Monthly
+alias python3.7="/usr/local/Cellar/python@3.7/3.7.9_3/bin/python3.7"
+
 # Elastic Beanstalk path
 export PATH=$HOME/.ebcli-virtual-env/executables:$PATH
 
 # Monthly Aliases
 alias mf="cd /Users/coop/programming/monthly/frontend/packages/web && yarn start"
-alias mb="source /Users/coop/.virtualenvs/monthly/bin/activate && zsh /Users/coop/programming/monthly/backend/run.sh"
+alias mb="source /Users/coop/.virtualenvs/backend/bin/activate && zsh /Users/coop/programming/monthly/backend/dev_run.sh"
