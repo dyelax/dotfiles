@@ -29,6 +29,7 @@ cask "slack"
 # Productivity
 cask "notion"
 cask "lastpass"
+cask "meetingbar"
 mas "Todoist", id: 585829637
 
 # OS

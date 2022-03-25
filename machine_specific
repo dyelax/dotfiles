@@ -12,4 +12,4 @@ export PATH=$HOME/.ebcli-virtual-env/executables:$PATH
 
 # Monthly Aliases
 alias mf="cd /Users/coop/programming/monthly/frontend/packages/web && yarn start"
-alias mb="source /Users/coop/.virtualenvs/backend/bin/activate && zsh /Users/coop/programming/monthly/backend/run.sh"
+alias mb="source /Users/coop/.virtualenvs/backend/bin/activate && /Users/coop/programming/monthly/backend/docker.sh up --build"
