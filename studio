@@ -1,0 +1,4 @@
+export GITHUB_NPM_AUTH_TOKEN=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
+alias mf="cd /Users/coop/programming/monthly/frontend && yarn start"
+alias mb="source /Users/coop/.virtualenvs/backend/bin/activate && /Users/coop/programming/monthly/backend/docker.sh up --build"
+

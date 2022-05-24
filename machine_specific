@@ -10,6 +10,3 @@ alias python3.7="/usr/local/Cellar/python@3.7/3.7.9_3/bin/python3.7"
 # Elastic Beanstalk path
 export PATH=$HOME/.ebcli-virtual-env/executables:$PATH
 
-# Monthly Aliases
-alias mf="cd /Users/coop/programming/monthly/frontend/packages/web && yarn start"
-alias mb="source /Users/coop/.virtualenvs/backend/bin/activate && /Users/coop/programming/monthly/backend/docker.sh up --build"

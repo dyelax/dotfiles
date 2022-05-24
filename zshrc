@@ -6,4 +6,5 @@ source $DOTFILES_DIR/git_aliases
 source $DOTFILES_DIR/tmux_aliases
 source $DOTFILES_DIR/misc_aliases
 source $DOTFILES_DIR/rn_android_setup
+source $DOTFILES_DIR/studio
 
