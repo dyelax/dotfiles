@@ -1,3 +1,12 @@
-alias mf="cd /Users/coop/programming/monthly/frontend && yarn start"
-alias mb="source /Users/coop/.virtualenvs/backend/bin/activate && /Users/coop/programming/monthly/backend/docker.sh up --build"
+alias sf="cd /Users/coop/programming/studio/frontend && yarn start"
+alias sb="source /Users/coop/.virtualenvs/backend/bin/activate && /Users/coop/programming/studio/backend/docker.sh up --build"
+
+alias sfn="cd /Users/coop/programming/studio/web && yarn run dev"
+alias sfw="cd /Users/coop/programming/studio/web && yarn run dev"
+
+alias sfa="sf & sfn"
+
+alias in-docker="/Users/coop/programming/monthly/backend/bin/in-docker bash"
+
+export GITHUB_NPM_AUTH_TOKEN=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
 

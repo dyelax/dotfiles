@@ -7,11 +7,13 @@ brewadd() { cd $DOTFILES_DIR && echo "brew \"${1}\"" >> Brewfile && gcam "Added 
 masadd()  { cd $DOTFILES_DIR && echo "mas \"${1}\", id: ${2}" >> Brewfile && gcam "Added 'mas \"${1}\", id: ${2}' to Brewfile" && gp && cd -; }
 
 # ngrok
-alias ng="ngrok http 3000 -subdomain=monthly-coop"
-alias ngb="ngrok http 8080 -subdomain=monthly-backend"
-alias ngbc="ngrok http 8080 -subdomain=monthly-coop-backend"
+alias ng="ngrok http 3000"
 
 # localtunnel
 alias ltp="lt -h http://serverless.social -p"
-alias ltm="ltp 3000"
+alias lt="ltp 3000"
+
+# Prisma
+alias pmd="pnpm prisma migrate dev"
+alias pmr="pnpm prisma migrate reset"
 

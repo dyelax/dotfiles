@@ -10,3 +10,5 @@ alias python3.7="/usr/local/Cellar/python@3.7/3.7.9_3/bin/python3.7"
 # Elastic Beanstalk path
 export PATH=$HOME/.ebcli-virtual-env/executables:$PATH
 
+# PostgreSQL local data store
+export PGDATA=/usr/local/var/postgresql@15

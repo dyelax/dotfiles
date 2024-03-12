@@ -1,0 +1,2 @@
+alias ed="cd /Users/coop/programming/encore/360 && pnpm dev"
+
