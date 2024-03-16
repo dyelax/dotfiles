@@ -16,4 +16,5 @@ alias lt="ltp 3000"
 # Prisma
 alias pmd="pnpm prisma migrate dev"
 alias pmr="pnpm prisma migrate reset"
+alias pgen="pnpm prisma generate"
 
