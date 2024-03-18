@@ -12,6 +12,7 @@ alias gcaa="git commit -a --amend"
 alias gcm="git commit -m"
 alias gcam="git commit -am"
 alias gds="git diff --name-status"
+alias gclr="git fetch -p && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -d"
 
 alias gprv="gh pr view --web"
 alias gprc="gh pr create --web"
