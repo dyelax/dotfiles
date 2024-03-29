@@ -1,2 +1,4 @@
 alias ed="cd /Users/coop/programming/encore/360 && pnpm dev"
+alias ecd="cd /Users/coop/programming/encore/composer && pnpm dev"
+alias elint="pnpm ci:lint"
 
